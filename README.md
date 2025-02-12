@@ -5,7 +5,7 @@
    - 📷 **Display photos of Mars** :
 
       - ❌ **NOT IMPLEMENTED YET** Retrieves and displays photos of the surface of Mars via a REST API.
-      - ❌ **NOT IMPLEMENTED YETW** Displays the number of images retrieved.
+      - ✅ **DONE** Displays the number of images retrieved.
 
    - 🎨 **Modern and Fluid Interface**:
 
@@ -17,7 +17,7 @@
 
    - 🔄 **Real-time status management**:
 
-      - 🟩 **IN PROGRESS** Use of a ViewModel to store state and manage data retrieved from the API. 
+      - ✅ **DONE** Use of a ViewModel to store state and manage data retrieved from the API. 
 
    - 🚀 Performance and responsiveness:
    
