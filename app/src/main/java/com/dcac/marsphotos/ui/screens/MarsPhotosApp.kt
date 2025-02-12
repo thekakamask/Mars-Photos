@@ -1,4 +1,4 @@
-package com.dcac.marsphotos
+package com.dcac.marsphotos.ui.screens
 
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.CenterAlignedTopAppBar
@@ -14,8 +14,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.input.nestedscroll.nestedScroll
 import androidx.compose.ui.res.stringResource
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.dcac.marsphotos.ui.screens.HomeScreen
-import com.dcac.marsphotos.ui.screens.MarsViewModel
+import com.dcac.marsphotos.R
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

@@ -18,6 +18,7 @@ kotlinSerialization = "1.9.0"
 kotlinxSerializationJson = "1.5.1"
 retrofitKotlinxSerializationConverter = "1.0.0"
 okhttp = "4.11.0"
+coilCompose = "2.4.0"
 
 
 [libraries]
@@ -47,6 +48,7 @@ kotlinx-coroutines-test = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-t
 androidx-espresso-intents = { module = "androidx.test.espresso:espresso-intents", version.ref = "espressoCore" }
 retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
 kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlinxSerializationJson" }
+coil-compose = { module = "io.coil-kt:coil-compose", version.ref = "coilCompose" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

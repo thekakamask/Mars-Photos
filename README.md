@@ -4,14 +4,14 @@
 ## 📋 **Features**
    - 📷 **Display photos of Mars** :
 
-      - ❌ **NOT IMPLEMENTED YET** Retrieves and displays photos of the surface of Mars via a REST API.
+      - ✅ **DONE** Retrieves and displays photos of the surface of Mars via a REST API.
       - ✅ **DONE** Displays the number of images retrieved.
 
    - 🎨 **Modern and Fluid Interface**:
 
       - TopBar:
          - ✅ **DONE** Displays application name.
-         - ❌ **NOT IMPLEMENTED YET** Adapts elements to scrolling with dynamic behavior.
+         - 🟩 **IN PROGRESS** Adapts elements to scrolling with dynamic behavior.
       - Light/Dark Mode:
          - ✅ **DONE** Support for light and dark themes with Material 3.
 
@@ -31,6 +31,7 @@
    - **ViewModel**: MVVM architecture to separate business logic from user interface.
    - **Retrofit**: Effectuer des appels réseau vers l'API REST.
    - **State Management**: Gestion des états à l'aide de mutableStateOf.
+   - **Coil** : Download, buffer, decode and cache images
    
 ## 🚀 **How to Use**
 ❌ **NOT READY YET** The detailed usage guide will be added soon.
