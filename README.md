@@ -11,7 +11,7 @@
 
       - TopBar:
          - ✅ **DONE** Displays application name.
-         - 🟩 **IN PROGRESS** Adapts elements to scrolling with dynamic behavior.
+         - ✅ **DONE** Adapts elements to scrolling with dynamic behavior.
       - Light/Dark Mode:
          - ✅ **DONE** Support for light and dark themes with Material 3.
 
@@ -21,7 +21,7 @@
 
    - 🚀 Performance and responsiveness:
    
-      - 🟩 **IN PROGRESS** Support for smooth scrolling and responsive display.             
+      - ✅ **DONE** Support for smooth scrolling and responsive display.             
 
 ## 🛠️ **Tech Stack**
    - **Kotlin**: Modern, concise language for Android development.
@@ -34,11 +34,21 @@
    - **Coil** : Download, buffer, decode and cache images
    
 ## 🚀 **How to Use**
-❌ **NOT READY YET** The detailed usage guide will be added soon.
+1. **Launch the App**: 
+   - Open the App on a device or emulator.
+2. **Discover photos of Mars**:
+   - Slide on the Grid to discover the photos of Mars.
+   - In case of network Problems, some photos of Mars may be not downloading.
+   - If no network at launch, use theretry button to relaunch Mars photos downloading.
 
    
 ## 📸 **Screenshots**
-❌ **NOT READY YET** The detailed usage guide will be added soon.
+- **HomeScreen**:
+  ![Home Screen](screenshots/MarsPhotos1.png)
+- **HomeScreen with network problems**:
+  ![Network Problems Home Screen](screenshots/MarsPhotos2.png)
+- **Home Screen with no network at launch**:
+  ![No Network Home Screen](screenshots/MarsPhotos3.png)
 
 ## 🤝 **Contributions**
 Contributions are welcome! Feel free to fork the repository and submit a pull request for new features or bug fixes.✅🟩❌

@@ -19,11 +19,12 @@ import com.dcac.marsphotos.R
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun MarsPhotosApp() {
+    //val scrollBehavior = TopAppBarDefaults.pinnedScrollBehavior()
     val scrollBehavior = TopAppBarDefaults.enterAlwaysScrollBehavior()
     Scaffold(
         modifier = Modifier.nestedScroll(scrollBehavior.nestedScrollConnection),
         topBar = { MarsTopAppBar(scrollBehavior = scrollBehavior) }
-    ) {
+    ) { paddingValues ->
         Surface(
             modifier = Modifier.fillMaxSize()
         ) {
@@ -31,7 +32,8 @@ fun MarsPhotosApp() {
                 viewModel(factory = MarsViewModel.Factory)
             HomeScreen(
                 marsUiState = marsViewModel.marsUiState,
-                contentPadding = it,
+                retryAction = marsViewModel::getMarsPhotos,
+                contentPadding = paddingValues
             )
         }
     }
