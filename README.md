@@ -44,10 +44,15 @@
    
 ## 📸 **Screenshots**
 - **HomeScreen**:
+
   ![Home Screen](screenshots/MarsPhotos1.png)
+
 - **HomeScreen with network problems**:
+
   ![Network Problems Home Screen](screenshots/MarsPhotos2.png)
+
 - **Home Screen with no network at launch**:
+
   ![No Network Home Screen](screenshots/MarsPhotos3.png)
 
 ## 🤝 **Contributions**
